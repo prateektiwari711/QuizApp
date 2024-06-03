@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./BG.jpg);
+    z-index: -1;
+    color: #fff;
+}
+
+.app{
+    background: #032930;
+    color: #fff;
+    max-width: 600px;
+    margin: 100px auto 0;
+    padding: 30px;
+    border-radius: 10px;
+    
+}
+
+.app h1{
+    display: flex;
+    color: rgb(144, 222, 120);
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-weight: 600;
+   
+}
+
+.top{
+    display: flex;
+    border-bottom: 1px solid #fff;
+    justify-content: space-between;
+    padding: auto;
+}
+
+#score{
+    margin-left: 45%;
+}
+
+.quiz{
+    padding:20px 0;
+    
+}
+.quiz.completed{
+    font-size: 32px;
+}
+
+.quiz h2{
+    font-size: 25px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.btn{
+    background: #032930;
+    color: #fff;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover{
+    background: rgb(50, 144, 226);
+    color:#fff;
+}
+
+.btn.correct{
+    background-color: green;
+}
+
+.btn.incorrect{
+    background-color:red;
+}
+
+.btn.no-hover {
+    pointer-events: none;
+}
+
+#next-btn{
+    background: #032930;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 10px;
+    margin-left: 47%;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+#next-btn:hover{
+    background: rgb(50, 144, 226);
+    color:#fff;
+}
